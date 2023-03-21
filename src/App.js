@@ -36,7 +36,7 @@ function App() {
 
   return (
     <>
-      <div class="title">
+      <div className="title">
         <span>Sandbox Amplify</span>
       </div>
 
@@ -93,11 +93,11 @@ function App() {
               </tr>
             </thead>
             <tbody>
-              {modelTable?.map((row) => {
+              {modelTable?.map((row, index) => {
                 const uuid = row.id
 
                 return (
-                  <tr>
+                  <tr key={index}>
                     <td>{row.name}</td>
                     <td>{row.description}</td>
                     <td>
