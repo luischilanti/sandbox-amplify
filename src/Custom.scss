@@ -145,10 +145,12 @@ button {
 }
 
 .table {
-  place-self: center;
+  place-self: flex-start;
+  justify-self: center;
+  margin-top: 100px;
   width: 40vw;
-  max-height: 75vh;
-  overflow-y: auto;
+  max-height: 60vh;
+  overflow-y: scroll;
 
   table {
     border-collapse: collapse;
@@ -195,4 +197,27 @@ button {
   color: var(--color);
   -webkit-text-stroke: 1px var(--color);
   filter: drop-shadow(0 0 23px var(--color));
+}
+
+* {
+  scrollbar-width: 13px;
+  scrollbar-color: #515151 var(--background-color);
+
+  &::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--background-color);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #515151;
+    border-radius: 50px;
+    border: 3px solid var(--background-color);
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #474747;
+  }
 }

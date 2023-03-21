@@ -1,8 +1,8 @@
+import { useEffect, useState } from "react"
 import { DataStore } from "@aws-amplify/datastore"
 import { Todo } from "./models"
 
 import "./Custom.scss"
-import { useEffect, useState } from "react"
 
 function App() {
   const [modelTable, setModelTable] = useState(null)
