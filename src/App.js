@@ -2,7 +2,7 @@ import Title from "./components/Title"
 import Table from "./components/Table"
 import Form from "./components/Form"
 
-import "./Custom.scss"
+import "./styles/App.scss"
 
 function App() {
   return (
