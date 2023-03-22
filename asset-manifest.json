@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sandbox-amplify/static/css/main.d36a2fe3.css",
+    "main.js": "/sandbox-amplify/static/js/main.de1e82bc.js",
+    "static/js/787.ca0cf5fa.chunk.js": "/sandbox-amplify/static/js/787.ca0cf5fa.chunk.js",
+    "index.html": "/sandbox-amplify/index.html",
+    "main.d36a2fe3.css.map": "/sandbox-amplify/static/css/main.d36a2fe3.css.map",
+    "main.de1e82bc.js.map": "/sandbox-amplify/static/js/main.de1e82bc.js.map",
+    "787.ca0cf5fa.chunk.js.map": "/sandbox-amplify/static/js/787.ca0cf5fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d36a2fe3.css",
+    "static/js/main.de1e82bc.js"
+  ]
+}
