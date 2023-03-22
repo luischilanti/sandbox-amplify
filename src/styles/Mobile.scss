@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .home {
+    grid-template-columns: 100%;
+  }
+
+  .form {
+    margin-top: 75px;
+  }
+
+  .table {
+    margin-top: 75px;
+    width: 90vw;
+    overflow-x: scroll;
+  }
+}

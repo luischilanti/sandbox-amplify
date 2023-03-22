@@ -3,6 +3,7 @@ import Table from "./components/Table"
 import Form from "./components/Form"
 
 import "./styles/App.scss"
+import "./styles/Mobile.scss"
 
 function App() {
   return (
