@@ -1,6 +1,7 @@
 {
     "name": "sandbox-amplify",
     "version": "0.1.0",
+    "homepage": "https://luischilanti.github.io/sandbox-amplify",
     "private": true,
     "dependencies": {
         "aws-amplify": "^5.0.20",
@@ -11,6 +12,8 @@
         "sass": "^1.54.1"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
@@ -37,6 +40,7 @@
         ]
     },
     "devDependencies": {
+        "gh-pages": "^5.0.0",
         "ini": "^1.3.5",
         "inquirer": "^6.5.1"
     }
